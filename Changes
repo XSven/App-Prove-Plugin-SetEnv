@@ -1,7 +1,8 @@
-Revision history for App-Prove-Plugin-SetEnv
+Release history for App-Prove-Plugin-SetEnv
 
-{{$NEXT}}
+1.0.0    2025-09-05 20:01:38 Europe/Hamburg
+         - Change authoring boilerplate
+         - Apply perlcritic feedback
 
-0.001     2012-03-29 13:41:28 Europe/London
-
-    - Initial version
+0.001    2012-03-29 13:41:28 Europe/London
+         - Initial release
