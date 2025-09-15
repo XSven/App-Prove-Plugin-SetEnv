@@ -8,13 +8,17 @@ App::Prove::Plugin::SetEnv - A prove plugin to set environment variables
 
 =head1 SYNOPSIS
 
-  # command-line usage
+  # command-line usage using shell expansion
   prove -PSetEnv=TZ=UTC,PATH="./bin:$PATH"
+
+  # command-line usage using String::Expand expansion
+  prove -PSetEnv=TZ=UTC,PATH='./bin:$PATH'
 
 =head1 DESCRIPTION
 
 This L<prove> plugin lets you set environment variables for your test scripts.
-It is particularly handy in F<.proverc>.
+It expands environment variables using L<String::Expand>. This is particularly
+handy in F<.proverc>.
 
 =head1 CAVEAT
 
