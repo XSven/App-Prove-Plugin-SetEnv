@@ -1,7 +1,8 @@
 Release history for App-Prove-Plugin-SetEnv
 
-1.0.0    2025-09-15 14:58:46 Europe/Hamburg
+1.0.0    2025-09-25 09:32:13 Europe/Hamburg
          - Add expansion of environment variables when used in .proverc
+         - Use dotted-decimal version scheme
          - Change authoring boilerplate
          - Apply perlcritic feedback
 
