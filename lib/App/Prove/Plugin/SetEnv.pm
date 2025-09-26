@@ -1,9 +1,10 @@
+BEGIN { require 5.010_001 }; # prefer numeric version for backwards compatibility
 use strict;
 use warnings;
 
 package App::Prove::Plugin::SetEnv;
 
-$App::Prove::Plugin::SetEnv::VERSION = 'v1.0.0'; ## no critic (ProhibitPackageVars)
+$App::Prove::Plugin::SetEnv::VERSION = 'v1.0.1'; ## no critic (ProhibitPackageVars)
 
 use String::Expand qw( expand_string );
 
